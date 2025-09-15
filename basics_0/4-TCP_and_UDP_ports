@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Script that lists all listening TCP and UDP ports with their PID and program name
 
-ss -tulnp
-ss -xlnp
+netstat -tulnp
+netstat -xlnp
